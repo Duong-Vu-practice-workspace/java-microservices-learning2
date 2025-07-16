@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: user-service
+  data:
+    mongodb:
+      uri: ${MONGO_URI}
+      database: users-social-media
+
+server:
+  port: ${SERVER_PORT}

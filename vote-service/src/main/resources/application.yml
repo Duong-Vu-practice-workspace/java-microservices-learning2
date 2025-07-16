@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: vote-service
+  data:
+    mongodb:
+      uri: ${MONGO_URI}
+      database: vote
+
+server:
+  port: ${SERVER_PORT}

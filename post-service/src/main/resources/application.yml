@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: post-service
+  data:
+    mongodb:
+      uri: ${MONGO_URI}
+      database: post
+server:
+  port: ${SERVER_PORT}
