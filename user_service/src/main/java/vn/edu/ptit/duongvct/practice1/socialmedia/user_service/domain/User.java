@@ -21,7 +21,6 @@ public class User {
     private String name;
     private LocalDate dob;
     private String email;
-
     @CreatedDate
     private LocalDateTime createdAt;
 
